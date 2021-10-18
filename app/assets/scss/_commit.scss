@@ -1,0 +1,63 @@
+.or-commit-section {
+	margin-top: 30px;
+	padding-bottom: 40px;
+}
+.or-commit-inner-box {
+	padding-left: 20px;
+	.or-commit-inner-icon {
+		width: 52px;
+		height: 52px;
+		margin-right: 12px;
+		border-radius: 100%;
+		background-color: #f2f2f2;
+		transition: .3s all ease-in-out;
+		i {
+			font-size: 20px;
+			color: $color-1;
+			transition: .3s all ease-in-out
+		}
+	}
+	.or-commit-inner-text {
+		width: 150px;
+		h3 {
+			color: $color-1;
+			font-size: 18px;
+			font-weight: 700;
+			padding-bottom: 5px;
+		}
+	}
+	&:before {
+		right: 0;
+		top: 20px;
+		content: '';
+		height: 32px;
+		position: absolute;
+		background-color: #fff;
+		border: 1px dashed #dbdbdb;
+	}
+	&:hover {
+		.or-commit-inner-icon {
+			background-color: $base-color;
+			i {
+				color: #fff;
+			}
+		}
+	}
+}
+.or-commit-content {
+	padding: 30px;
+	border: 1px solid #F2F2F2;
+	box-shadow: 0px 8px 29px 0px #f2f2f2;
+	transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+
+	.col-lg-3 {
+		&:last-child {
+			.or-commit-inner-box {
+				&:before {
+					display: none;
+
+				}
+			}
+		}
+	}
+}

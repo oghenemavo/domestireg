@@ -1,0 +1,104 @@
+/*=========
+Font load
+===========*/
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Barlow:wght@400;500;600;700;900&family=Lora:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,700&display=swap');
+$body-font: 'Barlow', sans-serif;
+$heading: 'Lora', serif;
+$heading-2: 'Poppins', sans-serif;
+$style:  'Architects Daughter', cursive;
+
+
+/*=========
+Color Code
+===========*/
+$body-color: #666666;
+$base-color: #76a713;
+$base-color-2: #ff7800;
+$color-1: #1a2428;
+$color-2: #ff7800;
+
+%innerbox {
+    background-color: #fff;
+    position: relative;
+    -webkit-box-shadow: 0 8px 38px rgb(12 12 12 / 6%);
+    -khtml-box-shadow: 0 8px 38px rgba(12,12,12,6%);
+    -moz-box-shadow: 0 8px 38px rgba(12,12,12,6%);
+    -ms-box-shadow: 0 8px 38px rgba(12,12,12,6%);
+    -o-box-shadow: 0 8px 38px rgba(12,12,12,6%);
+    box-shadow: 0 8px 38px rgb(12 12 12 / 6%);
+    padding: 55px 30px 45px;
+    text-align: center;
+    margin-bottom: 30px;
+    z-index: 1;
+    &:before {
+        content: '';
+        -webkit-transition: .3s cubic-bezier(.24,.74,.58,1);
+        -khtml-transition: .3s cubic-bezier(.24,.74,.58,1);
+        -moz-transition: .3s cubic-bezier(.24,.74,.58,1);
+        -ms-transition: .3s cubic-bezier(.24,.74,.58,1);
+        -o-transition: .3s cubic-bezier(.24,.74,.58,1);
+        transition: .3s cubic-bezier(.24,.74,.58,1);
+        position: absolute;
+        opacity: .29;
+        top: 18px;
+        right: 18px;
+        bottom: 18px;
+        left: 18px;
+        border-color: inherit;
+        border-style: solid;
+        border-width: 1px;
+        z-index: -1;
+    }
+    &.type-1 {
+        &:before {
+            border-color: $base-color;
+        }
+    }
+    &.type-2 {
+        &:before {
+            border-color: #bd0496;
+        }
+        .item-more {
+            a {
+                &:before {
+                    background-color: #bd0496;
+                }
+            }
+        }
+    }
+    &.type-3 {
+        &:before {
+            border-color: #c88149;
+        }
+        .item-more {
+            a {
+                &:before {
+                    background-color: #c88149;
+                }
+            }
+        }
+    }
+    &.type-4 {
+        &:before {
+            border-color: #c4a45f;
+        }
+        .item-more {
+            a {
+                &:before {
+                    background-color: #c4a45f;
+                }
+            }
+        }
+    }
+    &:hover {
+        &:before {
+            opacity: 1;
+            border-width: 4px;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+    }
+}

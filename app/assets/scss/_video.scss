@@ -1,0 +1,41 @@
+.or-video-section {
+	padding: 255px 0px 160px;
+	.or-video-shape {
+		top: 0;
+		left: 0;
+	}
+}
+.or-video-play {
+	a {
+		z-index: 1;
+		width: 150px;
+		height: 150px;
+		color: $color-2;
+		font-size: 24px;
+		line-height: 150px;
+		border-radius: 100%;
+		position: relative;
+		display: inline-block;
+		background-color: rgba(255, 255, 255, .5);
+		&:before,&:after {
+			top: 20px;
+			left: 20px;
+			z-index: -1;
+			content: '';
+			width: 110px;
+			height: 110px;
+			position: absolute;
+			border-radius: 100%;
+			background-color: rgba(255, 255, 255, .6);
+		}
+		&:after {
+			top: 30px;
+			left: 30px;
+			width: 60px;
+			top: 45px;
+			left: 45px;
+			height: 60px;
+			border-radius: 100%;
+		}
+	}
+}

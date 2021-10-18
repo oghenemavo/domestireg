@@ -1,0 +1,48 @@
+.or-funfact-section {
+	background-color: #f4f6e8;
+	padding: 170px 0px 225px;
+}
+.or-funfact-innerbox {
+	&:before {
+		top: 0;
+		right: 25px;
+		width: 2px;
+		content: '';
+		height: 70px;
+		position: absolute;
+		border-right: 2px dashed #d7d8ce;
+	}
+	.or-funfact-icon {
+		margin-right: 18px;
+		i {
+			color: $color-2;
+			font-size: 60px;
+			line-height: 1;
+		}
+	}
+	.or-funfact-text {
+		h3 {
+			color: $color-1;
+			font-size: 36px;
+			font-weight: 700;
+			sup {
+				color: $color-2;
+			}
+		}
+		p {
+			color: $color-1;
+			font-weight: 600;
+		}
+	}
+}
+.or-funfact-content {
+	.col-lg-3 {
+		&:last-child {
+			.or-funfact-innerbox {
+				&:before {
+					display: none;
+				}
+			}
+		}
+	}
+}

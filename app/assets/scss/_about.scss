@@ -1,0 +1,34 @@
+.or-about-section-1 {
+	padding-bottom: 165px;
+}
+.or-about-img-text-wrapper-1 {
+	max-width: 570px;
+}
+.or-about-img-1 {
+	left: -80px;
+}
+.slide-in-container {
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    position: relative;
+}
+.or-about-feature-wrapper {
+	padding-top: 25px;
+}
+.or-about-feature-innebox {
+	width: 50%;
+	.or-about-feature-icon {
+		margin-right: 10px;
+		width: 50px;
+	}
+	.or-about-feature-text {
+		width: 195px;
+		h3 {
+			color: $color-1;
+			font-size: 18px;
+			font-weight: 700;
+			padding-bottom: 10px;
+		}
+	}
+}

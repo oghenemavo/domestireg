@@ -1,0 +1,280 @@
+.or-service-page-section {
+	padding: 100px 0px 70px;
+}
+.or-service-page-innerbox {
+	overflow: hidden;
+	max-width: 370px;
+	margin: 0 auto;
+	box-shadow: 0 5px 35px rgb(22 22 22 / 8%);
+	margin-bottom: 30px;
+	.item--icon {
+		width: 75px;
+		height: 70px;
+		position: absolute;
+		right: 25px;
+		top: 60%;
+		background-color: #ff7800;
+		z-index: 5;
+		-webkit-transition: .3s cubic-bezier(.24,.74,.58,1);
+		-khtml-transition: .3s cubic-bezier(.24,.74,.58,1);
+		-moz-transition: .3s cubic-bezier(.24,.74,.58,1);
+		-ms-transition: .3s cubic-bezier(.24,.74,.58,1);
+		-o-transition: .3s cubic-bezier(.24,.74,.58,1);
+		transition: .3s cubic-bezier(.24,.74,.58,1);
+		i {
+			color: #fff;
+			font-size: 41px;
+		}
+	}
+	.item--holder {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background-color: #fff;
+		padding: 34px 20px;
+		text-align: center;
+		-webkit-transition: .3s cubic-bezier(.24,.74,.58,1);
+		-khtml-transition: .3s cubic-bezier(.24,.74,.58,1);
+		-moz-transition: .3s cubic-bezier(.24,.74,.58,1);
+		-ms-transition: .3s cubic-bezier(.24,.74,.58,1);
+		-o-transition: .3s cubic-bezier(.24,.74,.58,1);
+		transition: .3s cubic-bezier(.24,.74,.58,1);
+		.item--title {
+			color: $color-1;
+			font-weight: 700;
+			margin-bottom: 0;
+			font-size: 22px;
+			position: relative;
+			overflow: hidden;
+		}
+	}
+	.item--holder-hover {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0,0,0,.82);
+		z-index: 4;
+		padding: 126px 40px 40px;
+		-webkit-transform: translateY(100%);
+		-khtml-transform: translateY(100%);
+		-moz-transform: translateY(100%);
+		-ms-transform: translateY(100%);
+		-o-transform: translateY(100%);
+		transform: translateY(100%);
+		-webkit-transition: .25s cubic-bezier(.24,.74,.58,1);
+		-khtml-transition: .25s cubic-bezier(.24,.74,.58,1);
+		-moz-transition: .25s cubic-bezier(.24,.74,.58,1);
+		-ms-transition: .25s cubic-bezier(.24,.74,.58,1);
+		-o-transition: .25s cubic-bezier(.24,.74,.58,1);
+		transition: .25s cubic-bezier(.24,.74,.58,1);
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		align-items: flex-end;
+		.item--title {
+			font-weight: 700;
+			margin-bottom: 19px;
+			font-size: 22px;
+			color: #fff;
+			padding-bottom: 0 !important;
+		}
+		.item--content {
+			color: #c3c3c3;
+			padding-bottom: 32px;
+		}
+		.item-readmore  {
+			a {
+				width: 120px;
+				color: #fff;
+				height: 42px;
+				font-size: 15px;
+				line-height: 25px;
+				font-weight: 600;
+				border-radius: 30px;
+				background-color: $base-color;
+				&:hover {
+				background-color: $color-2;
+				}
+			}
+		}
+	}
+	&:hover {
+		.item--holder-hover {
+			-webkit-transform: translateY(0%);
+			-khtml-transform: translateY(0%);
+			-moz-transform: translateY(0%);
+			-ms-transform: translateY(0%);
+			-o-transform: translateY(0%);
+			transform: translateY(0%);
+			-webkit-transition-delay: .18s;
+			-moz-transition-delay: .18s;
+			transition-delay: .18s;
+		}
+		.item--icon {
+			bottom: auto;
+			top: 29px;
+		}
+		.item--holder {
+			-webkit-transform: translateY(100%);
+			-khtml-transform: translateY(100%);
+			-moz-transform: translateY(100%);
+			-ms-transform: translateY(100%);
+			-o-transform: translateY(100%);
+			transform: translateY(100%);
+		}
+	}
+}
+.service-testimonial {
+	margin-top: 80px;
+	background-color: #f3f3f3;
+	.or-testimonial-shape-bg {
+		left: 0;
+		top: -150px;
+	}
+	.or-testimonial-content {
+		background-color: #f3f3f3;
+	}
+	.or-testimonial-slider .slick-dots {
+		background-color: transparent;
+		li {
+			width: 24px;
+			height: 8px;
+			box-shadow: none;
+			border-radius: 5px;
+			background-color: #dcdcdc;
+			&:before {
+				display: none;
+			}
+			&.slick-active {
+				background-color: $base-color;
+			}
+		}
+	}
+}
+.or-service-details-section {
+	padding: 100px 0px 150px;
+	.service-category {
+		margin-bottom: 30px;
+		font-family: $heading;
+		li {
+			margin-bottom: 10px;
+			a {
+				width: 100%;
+				color: #1a2428;
+				font-size: 18px;
+				font-weight: 700;
+				padding: 15px 30px;
+				position: relative;
+				display: inline-block;
+				background-color: #f0f4f8;
+				&:before {
+					top: 0;
+					left: 0;
+					width: 5px;
+					content: '';
+					height: 100%;
+					position: absolute;
+					background-color: #c8cbcf;
+					transition: 300ms all ease;
+				}
+				&:after {
+					top: 28px;
+					left: 50px;
+					width: 0px;
+					height: 2px;
+					content: '';
+					position: absolute;
+					background-color: $body-color;
+					transition: 300ms all ease;
+				}
+				&:hover {
+					padding-left: 65px;
+					&:after {
+						width: 6px;
+					}
+					&:before {
+						background-color: $base-color;
+					}
+
+				}
+			}
+		}
+	}
+	.scroll-sticky {
+		top: 100px;
+		position: sticky;
+	}
+}
+.or-service-details-text-wrap {
+	padding-top: 25px;
+	h3 {
+		color: #000;
+		font-size: 30px;
+		font-weight: 700;
+		padding-bottom: 20px;
+	}
+}
+.or-service-details-feature {
+	padding: 35px 0px;
+}
+.or-service-details-ft-icon-text {
+	width: 50%;
+	padding: 20px;
+	margin-right: 30px;
+	background-color: #f0f4f8;
+	.or-service-details-ft-icon {
+		margin-right: 15px;
+	}
+	.or-service-details-ft-text {
+		overflow: hidden;
+		h4 {
+			color: #000;
+			font-size: 22px;
+			font-weight: 700;
+			padding-bottom: 5px;
+		}
+	}
+}
+.or-service-details-text-item {
+	padding-top: 20px;
+	h4 {
+		color: #000;
+		font-size: 20px;
+		font-weight: 700;
+		padding-bottom: 20px;
+	}
+}
+.or-service-commit-inner {
+	width: 270px;
+	.or-service-commit-icon {
+		width: 60px;
+		height: 60px;
+		font-size: 30px;
+		margin-right: 20px;
+		line-height: 60px;
+		color: $base-color;
+		border-radius: 5px;
+		box-shadow: -0.349px 4.988px 13px 0px rgba(0, 69, 172, 0.1);
+	}
+	.or-service-commit-text {
+		padding-top: 15px;
+		h3 {
+			font-size: 16px;
+			font-weight: 500;
+			max-width: 120px;
+			display: inline-block;
+		}
+	}
+}
+.or-service-commit {
+	margin-top: 30px;
+}
+.or-service-details-item {
+	margin-top: 30px;
+}
+.or-service-details-text-wrap .or-service-page-innerbox .item--holder .item--title {
+	padding-bottom: 0;
+}

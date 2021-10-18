@@ -1,0 +1,34 @@
+.or-cta-section {
+	padding-bottom: 80px;
+}
+.or-cta-content {
+	padding: 60px 0px 60px;
+	.or-cta-text {
+		p {
+			color: #fff;
+			font-size: 24px;
+			font-weight: 600;
+			span {
+				color: $color-2;
+			}
+		}
+		h3 {
+			color: #fff;
+			font-size: 36px;
+			font-weight: 700;
+			padding: 15px 0px 35px;
+		}
+		a {
+			color: #fff;
+			width: 130px;
+			height: 45px;
+			font-size: 14px;
+			font-weight: 700;
+			margin: 0 auto;
+			background-color: #76a713;
+			&:hover {
+				background-color: $color-2;
+			}
+		}
+	}
+}

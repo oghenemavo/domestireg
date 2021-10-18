@@ -1,0 +1,40 @@
+.or-breadcrumbs-section {
+	.background_overlay {
+		background-color: rgba(0, 0, 0, .7);
+	}
+	.or-breadcrumbs-content {
+		z-index: 1;
+		position: relative;
+		padding: 115px 0px 105px;
+		.page-title {
+			padding-bottom: 10px;
+			h1 {
+				color: #fff;
+				font-size: 45px;
+				font-weight: 700;
+			}
+		}
+		.or-breadcrumbs-items {
+			li {
+				color: #fff;
+				padding: 0px 25px;
+				position: relative;
+				&:before {
+					top: 3px;
+					right: -7px;
+					font-size: 14px;
+					content: '\f324';
+					font-weight: 900;
+					position: absolute;
+					color: $base-color;
+					font-family: 'Font Awesome 5 Pro';
+				}
+				&:last-child {
+					&:before {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+}
