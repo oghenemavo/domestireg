@@ -183,6 +183,10 @@
 	}
 }
 @media screen and (max-width: 991px) { 
+	.nav-setup {
+		display: none;
+	}
+
 	.organio-header-section.header-style-one .menu-navigation.left-nav,
 	.organio-header-section.header-style-one .menu-navigation.right-nav {
 		display: none;
