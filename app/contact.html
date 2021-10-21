@@ -31,18 +31,20 @@
 	<header id="organio-header" class="organio-header-section header-style-one">
 		<div class="organic-main-navigation">
 			<div class="container">
-				<div class="organic-header-content  position-relative">
-					<div class="site-logo">
-						<a href="#"><img src="assets/img/logo/domestireg_logo.png" alt=""></a>
-					</div>
-					<nav class="main-navigation-area clearfix ul-li">
-						<ul class="menu-navigation left-nav">
-							<li><a href="!#">Home</a></li>
+				<div class="organic-header-content">
+					<nav class="main-navigation-area d-flex clearfix ul-li">
+						<div class="site-logo">
+							<a href="#"><img src="assets/img/logo/domestireg_logo.png" alt=""></a>
+						</div>
+						<ul class="menu-navigation left-nav me-auto">
+							<li><a href="#">Home</a></li>
 							<li><a href="about.html">About</a></li>
-						</ul>
-						<ul class="menu-navigation right-nav">
 							<li><a href="blog.html">Blog</a></li>
-							<li><a href="contact.html">Contact</a></li>			
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+						<ul class="menu-navigation">
+							<li><a href="login.html">Login</a></li>
+							<li><a href="register.html" id="user-auth-btn" class="btn">Register</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -81,7 +83,7 @@
 
 <!-- Start of Breadcrumb section
 	============================================= -->
-	<section id="or-breadcrumbs" class="or-breadcrumbs-section position-relative" data-background="assets/img/bg/bg-page-title.jpg">
+	<section id="or-breadcrumbs" class="or-breadcrumbs-section position-relative" data-background="assets/img/bg/contact.jpg">
 		<div class="background_overlay"></div>
 		<div class="container">
 			<div class="or-breadcrumbs-content text-center">

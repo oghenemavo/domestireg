@@ -31,18 +31,20 @@
 	<header id="organio-header" class="organio-header-section header-style-one">
 		<div class="organic-main-navigation">
 			<div class="container">
-				<div class="organic-header-content  position-relative">
-					<div class="site-logo">
-						<a href="#"><img src="assets/img/logo/domestireg_logo.png" alt=""></a>
-					</div>
-					<nav class="main-navigation-area clearfix ul-li">
-						<ul class="menu-navigation left-nav">
-							<li><a href="!#">Home</a></li>
+				<div class="organic-header-content">
+					<nav class="main-navigation-area d-flex clearfix ul-li">
+						<div class="site-logo">
+							<a href="#"><img src="assets/img/logo/domestireg_logo.png" alt=""></a>
+						</div>
+						<ul class="menu-navigation left-nav me-auto">
+							<li><a href="#">Home</a></li>
 							<li><a href="about.html">About</a></li>
-						</ul>
-						<ul class="menu-navigation right-nav">
 							<li><a href="blog.html">Blog</a></li>
-							<li><a href="contact.html">Contact</a></li>			
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+						<ul class="menu-navigation">
+							<li><a href="login.html">Login</a></li>
+							<li><a href="register.html" id="user-auth-btn" class="btn">Register</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -767,7 +769,7 @@ style="z-index:12;"
 		<div class="container">
 			<div class="or-about-content-1 position-relative">
 				<div class="or-about-img-1 position-absolute">
-					<img src="assets/img/about/ab1.jpg" alt="">
+					<img src="assets/img/about/home-about-us.jpg" alt="">
 				</div>
 				<div class="or-about-text-area  d-flex justify-content-end">
 					<div class="or-about-img-text-wrapper-1">
@@ -808,7 +810,7 @@ style="z-index:12;"
 							<div class="or-why-choose-feature-2">
 								<div class="or-why-choose-feature-item-2 d-flex align-items-center">
 									<div class="or-why-choose-feature-icon d-flex align-items-center justify-content-center">
-										<i class="flaticon-pay"></i>
+										<i class="flaticon-add-to-cart"></i>
 									</div>
 									<div class="or-why-choose-feature-text pera-content">
 										<h3>Pick a service</h3>
@@ -839,21 +841,12 @@ style="z-index:12;"
 										</p>
 									</div>
 								</div>
-								<!-- <div class="or-why-choose-feature-item-2 d-flex align-items-center">
-									<div class="or-why-choose-feature-icon d-flex align-items-center justify-content-center">
-										<i class="flaticon flaticon-cancel"></i>
-									</div>
-									<div class="or-why-choose-feature-text pera-content">
-										<h3>Skip or Cancel Anytime</h3>
-										<p>Dolor sit amet, consectetur adipiscing elit, sed eiusmod temporincididunt ut labore et.</p>
-									</div>
-								</div> -->
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-6">
 						<div class="or-why-choose-img-2">
-							<img src="assets/img/about/hw1.png" alt="">
+							<img src="assets/img/about/verify-profile.jpg" alt="">
 						</div>
 					</div>
 				</div>
@@ -873,7 +866,7 @@ style="z-index:12;"
 			</div>
 			<div class="or-category-content">
 				<div class="row">
-					<div class="col-md-3">
+					<div class="col-md-3 d-flex align-items-stretch">
 						<div class="or-why-choose-feature-innerbox headline pera-content text-center">
 							<div class="or-why-choose-feature-icon position-relative d-flex align-items-center justify-content-center">
 								<i class="flaticon-leaf"></i>
@@ -888,7 +881,7 @@ style="z-index:12;"
 						</div>
 					</div>
 					
-					<div class="col-md-3">
+					<div class="col-md-3 d-flex align-items-stretch">
 						<div class="or-why-choose-feature-innerbox headline pera-content text-center">
 							<div class="or-why-choose-feature-icon position-relative d-flex align-items-center justify-content-center">
 								<i class="flaticon-leaf"></i>
@@ -902,7 +895,7 @@ style="z-index:12;"
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 wow fadeInUp" data-wow-delay="200ms">
+					<div class="col-md-3 d-flex align-items-stretch wow fadeInUp" data-wow-delay="200ms">
 						<div class="or-why-choose-feature-innerbox headline pera-content text-center">
 							<div class="or-why-choose-feature-icon position-relative d-flex align-items-center justify-content-center">
 								<i class="flaticon-headphones"></i>
@@ -916,7 +909,7 @@ style="z-index:12;"
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 wow fadeInUp" data-wow-delay="400ms">
+					<div class="col-md-3 d-flex align-items-stretch wow fadeInUp" data-wow-delay="400ms">
 						<div class="or-why-choose-feature-innerbox headline pera-content text-center">
 							<div class="or-why-choose-feature-icon position-relative d-flex align-items-center justify-content-center">
 								<i class="flaticon-credit-card"></i>
@@ -937,64 +930,6 @@ style="z-index:12;"
 <!-- End of Category section
 	============================================= -->
 
-
-<!-- Start of Funfact section
-	============================================= -->
-	<!-- <section id="or-funfact" class="or-funfact-section position-relative" data-background="assets/img/bg/fn-bg.png">
-		<div class="container">
-			<div class="or-funfact-content">
-				<div class="row">
-					<div class="col-lg-3 col-sm-6"> 
-						<div class="or-funfact-innerbox position-relative d-flex align-items-center">
-							<div class="or-funfact-icon">
-								<i class="flaticon-rate"></i>
-							</div>
-							<div class="or-funfact-text headline pera-content">
-								<h3> <span class="counter">1542</span> <sup>+</sup></h3>
-								<p>Satisfied Clients</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-3 col-sm-6"> 
-						<div class="or-funfact-innerbox position-relative d-flex align-items-center">
-							<div class="or-funfact-icon">
-								<i class="flaticon-link"></i>
-							</div>
-							<div class="or-funfact-text headline pera-content">
-								<h3> <span class="counter">182</span> <sup>+</sup></h3>
-								<p>Expert Team</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-3 col-sm-6"> 
-						<div class="or-funfact-innerbox position-relative d-flex align-items-center">
-							<div class="or-funfact-icon">
-								<i class="flaticon-product-design"></i>
-							</div>
-							<div class="or-funfact-text headline pera-content">
-								<h3> <span class="counter">285</span> <sup>+</sup></h3>
-								<p>Activate Products</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-3 col-sm-6"> 
-						<div class="or-funfact-innerbox position-relative d-flex align-items-center">
-							<div class="or-funfact-icon">
-								<i class="flaticon-award"></i>
-							</div>
-							<div class="or-funfact-text headline pera-content">
-								<h3> <span class="counter">27</span> <sup>+</sup></h3>
-								<p>Award Winning</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section> -->
-<!-- End of Funfact section
-	============================================= -->
-
 <!-- Start of Product section
 	============================================= -->
 	<section id="or-product" class="or-product-section">
@@ -1004,6 +939,8 @@ style="z-index:12;"
 				<h2 class="case-animate-time">All of our products are organic & fresh.</h2>
 			</div>
 			<div class="or-product-content">
+
+				<!-- accordion start -->
 				<div class="accordion" id="accordionExample">
 					<div class="accordion-item">
 					  <h2 class="accordion-header" id="headingOne">
@@ -1075,6 +1012,7 @@ style="z-index:12;"
 					  </div>
 					</div>
 				</div>
+				<!-- accordion end -->
 			</div>
 		</div>
 	</section>
@@ -1169,13 +1107,10 @@ style="z-index:12;"
 					<div class="col-lg-3 col-md-6">	
 						<div class="or-footer-widget headline pera-content ul-li-block">
 							<div class="or-logo-widget">
-								<a href="#"><img src="assets/img/logo/domestireg_icon.png" alt=""></a>
-								<p>We work with a passion of taking challenges and creating new ones in advertising sector.	</p>
-								<div class="footer-social">	
-									<a href="#" tabindex="0"><i class="fab fa-facebook-f"></i></a>
-									<a href="#" tabindex="0"><i class="fab fa-twitter"></i></a>
-									<a href="#" tabindex="0"><i class="fab fa-instagram"></i></a>
-								</div>
+								<a href="#"><img src="assets/img/logo/domestireg_icon.png" style="width: 150px;" alt=""></a>
+								<p class="pt-0">
+									We work with a passion of taking challenges and creating new ones in advertising sector.
+								</p>
 							</div>
 						</div>
 					</div>
@@ -1193,7 +1128,7 @@ style="z-index:12;"
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-3 col-md-6">	
+					<div class="col-lg-3 col-md-6 pt-4">	
 						<div class="or-footer-widget headline pera-content ul-li-block">
 							<div class="or-contact-widget">
 								<h2 class="widget-title">Official info:</h2>
@@ -1201,8 +1136,12 @@ style="z-index:12;"
 									<li><i class="fas fa-envelope"></i> <span> info@domestireg.com  </span> </li>
 								</ul>
 								<span class="title">Open Hours: </span>
-								<p>Mon - Sat: 8 am - 5 pm,
-								Sunday: CLOSED</p>
+								<p>Mon - Sat: 8 am - 5 pm, Sunday: CLOSED</p>
+								<div class="footer-social d-flex text-white">	
+									<a class="d-inline py-2 pe-2" href="#" tabindex="0"><i class="fab fa-facebook-f"></i></a>
+									<a class="d-inline p-2" href="#" tabindex="0"><i class="fab fa-twitter"></i></a>
+									<a class="d-inline p-2" href="#" tabindex="0"><i class="fab fa-instagram"></i></a>
+								</div>
 							</div>
 						</div>
 					</div>

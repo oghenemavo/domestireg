@@ -157,3 +157,22 @@ CSS Table of content:-
 		background-color: $base-color;
 	}
 }
+
+#accordionExample {
+	.accordion-item .accordion-button {
+		padding: 24px 16px;
+		font-size: 24px;
+		color: #191919;
+	}
+	.accordion-body {
+		font-size: 17px;
+	}
+}
+
+#user-auth-btn {
+	position: initial;
+	padding: 10px 16px;
+	background-color: $base-color;
+	color: #fff;
+	font-weight: normal;
+}

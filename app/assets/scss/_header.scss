@@ -99,7 +99,7 @@
 			}
 		}
 		.organic-main-navigation {
-			padding: 15px 0px 35px;
+			padding: 15px 0px 20px;
 			background-color: #fff;
 		}
 		.menu-navigation.left-nav {
@@ -112,15 +112,13 @@
 			text-align: right;
 		}
 		.site-logo {
-			top: 0;
-			left: 0;
-			right: 0;
-			width: 150px;
-			margin: 0 auto;
-			position: absolute;
+			width: 200px;
+			margin: auto 0;
+			padding-right: 16px;
 		}
 		.menu-navigation {
-			padding-top: 18px;
+			margin: auto 0;
+			// padding-top: 18px;
 			li {
 				margin-right: 50px;
 				a {
