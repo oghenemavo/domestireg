@@ -16,7 +16,6 @@
     right: 0;
     margin: auto;
     background-image: url(../img/bg-contact.png);
-    background-color: $base-color;
     z-index: -1;
     -webkit-border-radius: 50px 0 50px 0;
     -khtml-border-radius: 50px 0 50px 0;
@@ -31,6 +30,19 @@
     -o-transition: .3s cubic-bezier(.24,.74,.58,1);
     transition: .3s cubic-bezier(.24,.74,.58,1);
 }
+
+.contact-card-item1:before {
+    background-color: $base-color;
+}
+
+.contact-card-item2:before {
+    background-color: $base-color-2;
+}
+
+.contact-card-item3:before {
+    background-color: $color-2;
+}
+
 .or-contact-innerbox-layout1 .item--icon {
     display: inline-block;
     width: 70px;
@@ -48,6 +60,43 @@
     position: relative;
     margin-bottom: 10px;
 }
+
+.or-contact-innerbox-layout1 .item--icon2 {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    font-size: 40px;
+    color: $base-color-2;
+    background-color: #fff;
+    -webkit-border-radius: 70px;
+    -khtml-border-radius: 70px;
+    -moz-border-radius: 70px;
+    -ms-border-radius: 70px;
+    -o-border-radius: 70px;
+    border-radius: 70px;
+    line-height: 70px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.or-contact-innerbox-layout1 .item--icon3 {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    font-size: 40px;
+    color: $color-2;
+    background-color: #fff;
+    -webkit-border-radius: 70px;
+    -khtml-border-radius: 70px;
+    -moz-border-radius: 70px;
+    -ms-border-radius: 70px;
+    -o-border-radius: 70px;
+    border-radius: 70px;
+    line-height: 70px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
 .or-contact-innerbox-layout1 .item--title {
     color: #fff;
     font-size: 26px;

@@ -20,6 +20,9 @@
 	<link rel="stylesheet" href="assets/css/slick.css">
 	<link rel="stylesheet" href="assets/css/slick-theme.css">
 	<link rel="stylesheet" href="assets/css/style.css">
+
+	<!-- Bootstrap Font Icon CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 </head>
 <body class="organio-wrapper">
 	<div id="preloader"></div>
@@ -44,8 +47,8 @@
 							<li><a href="contact.html">Contact</a></li>
 						</ul>
 						<ul class="menu-navigation nav-setup">
-							<li><a href="login.html">Login</a></li>
-							<li><a href="register.html" id="user-auth-btn" class="btn">Register</a></li>
+							<li class="me-3"><a href="#">Login</a></li>
+							<li><a href="#" id="user-auth-btn" class="btn">Register</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -67,7 +70,7 @@
 					</div>
 					<nav class="mobile-main-navigation  clearfix ul-li">
 						<ul id="m-main-nav" class="navbar-nav text-capitalize clearfix">
-							<li><a href="!#">Home</a></li>
+							<li><a href="">Home</a></li>
 							<li><a href="about.html">About</a></li>
 							<li><a href="blog.html">Blog</a></li>
 							<li><a href="contact.html">Contact</a></li>
@@ -80,7 +83,8 @@
 		<!-- Mobile Content -->
 	</header>
 <!-- End of header section
-	============================================= -->
+	============================================= -->	
+
 
 <!-- Start of Breadcrumb section
 	============================================= -->
@@ -101,75 +105,48 @@
 <!-- End of Breadcrumb section
 	============================================= -->
 
-<!-- Start of Why choose section
-	============================================= -->
-	<section id="or-why-choose" class="or-why-choose-section">
-		<div class="container">
-			<div class="or-why-choose-content">  
-				<div class="row">
-					<div class="col-lg-6">
-						<div class="or-why-choose-feature position-relative">
-							<div class="row">
-								<div class="col-md-6 d-flex align-items-stretch">
-									<div class="or-why-choose-feature-innerbox headline pera-content text-center">
-										<div class="or-why-choose-feature-icon position-relative d-flex align-items-center justify-content-center">
-											<i class="flaticon-add-to-cart"></i>
-										</div>
-										<div class="or-why-choose-feature-text">
-											<h3>Pick a service</h3>
-											<p>Choose from a list of service bouquet.</p>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-6 d-flex align-items-stretch">
-									<div class="or-why-choose-feature-innerbox headline pera-content text-center">
-										<div class="or-why-choose-feature-icon position-relative d-flex align-items-center justify-content-center">
-											<i class="flaticon flaticon-fruits"></i>
-										</div>
-										<div class="or-why-choose-feature-text">
-											<h3>Provide Staff info</h3>
-											<p>
-												Provide the information of the designated domestic staff member intended to undergo the selected verification or medical tests.
-											</p>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-6 d-flex align-items-stretch">
-									<div class="or-why-choose-feature-innerbox headline pera-content text-center">
-										<div class="or-why-choose-feature-icon position-relative d-flex align-items-center justify-content-center">
-											<i class="flaticon flaticon-lorry"></i>
-										</div>
-										<div class="or-why-choose-feature-text">
-											<h3>Get Results</h3>
-											<p>
-												As soon as the domestic staff info is submitted, 
-												a confirmation will be sent as you await to receive test results within the proposed timeline. 
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<div class="or-why-choose-text-wrapper">
-							<div class="or-section-title headline pera-content">
-								<span class="sub-title">Overview</span>
-								<h2 class="case-animate-time">We do not buy from the open market & traders.</h2>
-								<p>
-									We are a background, medical, criminal vetting and fact finding service. We assist our 
-									clients in vetting all their staff; to ensure they know exactly who they are hiring and to 
-									ensure the safety of the most important people “’Their family “!
-								</p>
-							</div>
-						</div>
-					</div>
+	<div class="container pb-5">
+		<div class="row">
+			<div class="col-md-4 py-4 text-center">
+				<div class="about-icons d-flex align-items-center justify-content-center">
+					<i class="bi bi-hand-index-thumb"></i>
+				</div>
+				<h3 style="font-family: 'lora'; color: #000;">Pick a service</h3>
+				<p>Choose from a list of service bouquet.</p>
+			</div>
+			<div class="col-md-4 py-4 text-center">
+				<div class="about-icons d-flex align-items-center justify-content-center">
+					<i class="bi bi-newspaper"></i>
+				</div>
+				<h3 style="font-family: 'lora'; color: #000;">Provide Staff info</h3>
+				<p>
+					Provide the information of the designated domestic staff member intended to undergo the selected verification or medical tests.
+				</p>
+			</div>
+			<div class="col-md-4 py-4 text-center">
+				<div class="about-icons d-flex align-items-center justify-content-center">
+					<i class="bi bi-emoji-laughing-fill"></i>
+				</div>
+
+				<h3 style="font-family: 'lora'; color: #000;">Get Results</h3>
+				<p>
+					As soon as the domestic staff info is submitted, 
+					a confirmation will be sent as you await to receive test results within the proposed timeline. 
+				</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-8 offset-md-2 text-center">
+				<div class="or-section-title headline pera-content">
+					<h2>We vet and check so you don’t have to</h2>
+					<p style="font-size: 18px;">
+						We are a background, medical, criminal vetting and fact finding service. We assist our clients in vetting all their staff; to ensure they know exactly who they are hiring and to ensure the safety of the most important people “’Their family “! 
+					</p>
 				</div>
 			</div>
 		</div>
-	</section>
-<!-- End of Why choose section
-	============================================= -->
+	</div>
 
 	
 	<!-- Start of About us section
@@ -178,7 +155,7 @@
 		<div class="container">
 			<div class="or-about-content-1 position-relative">
 				<div class="or-about-img-1 position-absolute">
-					<img src="assets/img/about/our-story.jpg" alt="">
+					<img src="assets/img/about/owner-story.jpg" alt="">
 				</div>
 				<div class="or-about-text-area  d-flex justify-content-end">
 					<div class="or-about-img-text-wrapper-1">
@@ -250,181 +227,7 @@ intentions from committing their heinous acts.
 			<p>More step to safeguarding our homes, personal sanctuaries and hard-earned belongings from potential criminals. </p>
 		</div>
 	</section>
-
-<!-- Start of team section
-	============================================= -->
-	<section id="our-team" class="or-team-section">
-		<div class="container">
-			<div class="or-section-title headline pera-content text-center middle-align">
-				<span class="sub-title">Partners</span>
-				<h2 class="case-animate-time">We have awesome partners to support.</h2>
-			</div>
-			<div class="or-team-content">
-				<div class="or-team-content-area">
-					<div class="or-team-slider">
-						<div class="organio-inner-item">
-							<div class="or-team-innerbox">
-								<div class="or-team-img position-relative">
-									<img src="assets/img/team/tm1.jpg" alt="">
-								</div>
-								<div class="or-taam-item-holder">
-									<div class="or-team-meta text-center headline position-relative">
-										<h3><a href="team-single.html">Alisa Lisa</a></h3>
-										<span>Customer Care Officer</span>
-										<div class="team-item-side-img">
-											<img class="side-img" src="assets/img/icon/t-icon2.png" alt="">
-											<img class="side-img" src="assets/img/icon/t-icon1.png" alt="">
-										</div>
-									</div>
-									<div class="or-team-text-social pera-content text-center">
-										<p>Lisa focuses on providing customers with Organic and Fair Trade Food.</p>
-										<div class="or-team-social">
-											<a href="#"><i class="fab fa-facebook-f"></i></a>
-											<a href="#"><i class="fab fa-twitter"></i></a>
-											<a href="#"><i class="fab fa-dribbble"></i></a>
-											<a href="#"><i class="fab fa-behance"></i></a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="organio-inner-item">
-							<div class="or-team-innerbox">
-								<div class="or-team-img position-relative">
-									<img src="assets/img/team/tm2.jpg" alt="">
-								</div>
-								<div class="or-taam-item-holder">
-									<div class="or-team-meta text-center headline position-relative">
-										<h3><a href="team-single.html">Robert Leo</a></h3>
-										<span>Farmer</span>
-										<div class="team-item-side-img">
-											<img class="side-img" src="assets/img/icon/t-icon2.png" alt="">
-											<img class="side-img" src="assets/img/icon/t-icon1.png" alt="">
-										</div>
-									</div>
-									<div class="or-team-text-social pera-content text-center">
-										<p>Lisa focuses on providing customers with Organic and Fair Trade Food.</p>
-										<div class="or-team-social">
-											<a href="#"><i class="fab fa-facebook-f"></i></a>
-											<a href="#"><i class="fab fa-twitter"></i></a>
-											<a href="#"><i class="fab fa-dribbble"></i></a>
-											<a href="#"><i class="fab fa-behance"></i></a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="organio-inner-item">
-							<div class="or-team-innerbox">
-								<div class="or-team-img position-relative">
-									<img src="assets/img/team/tm3.jpg" alt="">
-								</div>
-								<div class="or-taam-item-holder">
-									<div class="or-team-meta text-center headline position-relative">
-										<h3><a href="team-single.html">Nora Bell</a></h3>
-										<span>Sales Executive</span>
-										<div class="team-item-side-img">
-											<img class="side-img" src="assets/img/icon/t-icon2.png" alt="">
-											<img class="side-img" src="assets/img/icon/t-icon1.png" alt="">
-										</div>
-									</div>
-									<div class="or-team-text-social pera-content text-center">
-										<p>Lisa focuses on providing customers with Organic and Fair Trade Food.</p>
-										<div class="or-team-social">
-											<a href="#"><i class="fab fa-facebook-f"></i></a>
-											<a href="#"><i class="fab fa-twitter"></i></a>
-											<a href="#"><i class="fab fa-dribbble"></i></a>
-											<a href="#"><i class="fab fa-behance"></i></a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="organio-inner-item">
-							<div class="or-team-innerbox">
-								<div class="or-team-img position-relative">
-									<img src="assets/img/team/tm1.jpg" alt="">
-								</div>
-								<div class="or-taam-item-holder">
-									<div class="or-team-meta text-center headline position-relative">
-										<h3><a href="team-single.html">Alisa Lisa</a></h3>
-										<span>Customer Care Officer</span>
-										<div class="team-item-side-img">
-											<img class="side-img" src="assets/img/icon/t-icon2.png" alt="">
-											<img class="side-img" src="assets/img/icon/t-icon1.png" alt="">
-										</div>
-									</div>
-									<div class="or-team-text-social pera-content text-center">
-										<p>Lisa focuses on providing customers with Organic and Fair Trade Food.</p>
-										<div class="or-team-social">
-											<a href="#"><i class="fab fa-facebook-f"></i></a>
-											<a href="#"><i class="fab fa-twitter"></i></a>
-											<a href="#"><i class="fab fa-dribbble"></i></a>
-											<a href="#"><i class="fab fa-behance"></i></a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="organio-inner-item">
-							<div class="or-team-innerbox">
-								<div class="or-team-img position-relative">
-									<img src="assets/img/team/tm2.jpg" alt="">
-								</div>
-								<div class="or-taam-item-holder">
-									<div class="or-team-meta text-center headline position-relative">
-										<h3><a href="team-single.html">Robert Leo</a></h3>
-										<span>Farmer</span>
-										<div class="team-item-side-img">
-											<img class="side-img" src="assets/img/icon/t-icon2.png" alt="">
-											<img class="side-img" src="assets/img/icon/t-icon1.png" alt="">
-										</div>
-									</div>
-									<div class="or-team-text-social pera-content text-center">
-										<p>Lisa focuses on providing customers with Organic and Fair Trade Food.</p>
-										<div class="or-team-social">
-											<a href="#"><i class="fab fa-facebook-f"></i></a>
-											<a href="#"><i class="fab fa-twitter"></i></a>
-											<a href="#"><i class="fab fa-dribbble"></i></a>
-											<a href="#"><i class="fab fa-behance"></i></a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="organio-inner-item">
-							<div class="or-team-innerbox">
-								<div class="or-team-img position-relative">
-									<img src="assets/img/team/tm3.jpg" alt="">
-								</div>
-								<div class="or-taam-item-holder">
-									<div class="or-team-meta text-center headline position-relative">
-										<h3><a href="team-single.html">Nora Bell</a></h3>
-										<span>Sales Executive</span>
-										<div class="team-item-side-img">
-											<img class="side-img" src="assets/img/icon/t-icon2.png" alt="">
-											<img class="side-img" src="assets/img/icon/t-icon1.png" alt="">
-										</div>
-									</div>
-									<div class="or-team-text-social pera-content text-center">
-										<p>Lisa focuses on providing customers with Organic and Fair Trade Food.</p>
-										<div class="or-team-social">
-											<a href="#"><i class="fab fa-facebook-f"></i></a>
-											<a href="#"><i class="fab fa-twitter"></i></a>
-											<a href="#"><i class="fab fa-dribbble"></i></a>
-											<a href="#"><i class="fab fa-behance"></i></a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-<!-- End of team section
-	============================================= -->					
+					
 
 <!-- Start of Footer section
 	============================================= -->
@@ -437,7 +240,7 @@ intentions from committing their heinous acts.
 							<div class="or-logo-widget">
 								<a href="#"><img src="assets/img/logo/domestireg_icon.png" style="width: 150px;" alt=""></a>
 								<p class="pt-0">
-									We work with a passion of taking challenges and creating new ones in advertising sector.
+									We work with a passion of taking challenges and ensuring a safe and healthy life for you and your family
 								</p>
 							</div>
 						</div>
@@ -449,9 +252,10 @@ intentions from committing their heinous acts.
 								<ul>
 									<li><a href="index.html">Home</a></li>
 									<li><a href="about.html">About us</a></li>
-									<li><a href="blog.html">Blog</a></li>
+									<!-- <li><a href="blog.html">Blog</a></li> -->
 									<li><a href="contact.html">Contact</a></li>
-									<li><a href="login.html">Login</a></li>
+									<li><a href="#">Privacy Policy</a></li>
+									<li><a href="#">Terms & Conditions</a></li>
 								</ul>
 							</div>
 						</div>
@@ -463,8 +267,6 @@ intentions from committing their heinous acts.
 								<ul>
 									<li><i class="fas fa-envelope"></i> <span> info@domestireg.com  </span> </li>
 								</ul>
-								<span class="title">Open Hours: </span>
-								<p>Mon - Sat: 8 am - 5 pm, Sunday: CLOSED</p>
 								<div class="footer-social d-flex text-white">	
 									<a class="d-inline py-2 pe-2" href="#" tabindex="0"><i class="fab fa-facebook-f"></i></a>
 									<a class="d-inline p-2" href="#" tabindex="0"><i class="fab fa-twitter"></i></a>
@@ -479,11 +281,11 @@ intentions from committing their heinous acts.
 			</div>
 		</div>
 		<div class="or-footer-copyright text-center" data-background="assets/img/bg/bg-footer-bottom.png">
-			<span>© 2021 Organio - Organic. All rights reserved.</span>
+			<span>© 2021 Domestireg. All rights reserved.</span>
 		</div>
 	</footer>
 <!-- End of Footer section
-	============================================= -->	
+	============================================= -->
 
 
 	<!-- For Js Library -->

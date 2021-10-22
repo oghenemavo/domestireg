@@ -135,4 +135,11 @@
 			}
 		}
 	}
+	&:nth-child(3) {
+		.or-why-choose-feature-icon {
+			i {
+				color: $base-color-2;
+			}
+		}
+	}
 }

@@ -153,9 +153,9 @@ CSS Table of content:-
 	height: 55px;
 	width: 170px;
     margin-top: 16px;
-	&.type-2 {
-		background-color: $base-color;
-	}
+	color: #fff;
+	font-size: 18px;
+	background-color: $base-color-2;
 }
 
 #accordionExample {
@@ -175,4 +175,19 @@ CSS Table of content:-
 	background-color: $base-color;
 	color: #fff;
 	font-weight: normal;
+}
+
+.about-icons {
+	z-index: 1;
+	width: 80px;
+	height: 80px;
+	margin: 0 auto;
+	margin-bottom: 8px;
+	border-radius: 100%;
+	background-color: $color-2;
+
+	i {
+		color: #fff;
+		font-size: 24px;
+	}
 }
