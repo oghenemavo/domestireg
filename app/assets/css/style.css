@@ -7851,6 +7851,10 @@ select:visited {
   }
 }
 /*---------------------------------------------------- */
+body {
+  font-size: 18px !important;
+}
+
 .custom-btn {
   display: inline-block;
   text-align: center;

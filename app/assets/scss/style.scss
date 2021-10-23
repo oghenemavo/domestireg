@@ -144,6 +144,9 @@ CSS Table of content:-
 @import "responsive";
 /*---------------------------------------------------- */
 
+body {
+    font-size: 18px !important;
+}
 
 .custom-btn {
     @extend%btn-type-4;
