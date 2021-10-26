@@ -9,7 +9,7 @@
 	<meta name="author" content="Themexriver">
 	<link rel="shortcut icon" href="assets/img/logo/ficon.png" type="image/x-icon">
 	<!-- Mobile Specific Meta -->
-
+<!-- 
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/fontawesome-all.css">
 	<link rel="stylesheet" href="assets/css/flaticon.css">
@@ -20,7 +20,7 @@
 	<link rel="stylesheet" href="assets/css/zoomit.css">
 	<link rel="stylesheet" href="assets/css/slick.css">
 	<link rel="stylesheet" href="assets/css/slick-theme.css">
-	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/style.css"> -->
 </head>
 <body class="organio-wrapper or-login-wrapper">
 	<div id="preloader"></div>
@@ -31,61 +31,36 @@
 	<section id="or-login" class="or-login-section">
 		<div class="or-login-content sign-login-area d-flex align-items-center justify-content-center">
 			<div class="or-checkout-form headline pera-content">
-				<form action="#">
+				<form id="signup" method="post">
 					<div class="row">
 						<div class="col-md-6">
 							<div class="or-bill-form">
 								<label>First name *</label>
-								<input type="text" placeholder="Ex: x,y,z">
+								<input type="text" id="first_name" name="first_name" placeholder="Ex: x,y,z">
 							</div>
 						</div>
 						<div class="col-md-6">
 							<div class="or-bill-form">
 								<label>Last name *</label>
-								<input type="text" placeholder="Ex: x,y,z">
+								<input type="text" id="last_name" name="last_name" placeholder="Ex: x,y,z">
 							</div>
 						</div>
 						<div class="col-md-12">
 							<div class="or-bill-form">
-								<label>Company Name</label>
-								<input type="text" placeholder="Ex: x,y,z">
+								<label>Email</label>
+								<input type="email" id="email" name="email" placeholder="Ex: x,y,z">
 							</div>
 						</div>
 						<div class="col-md-12">
 							<div class="or-bill-form">
-								<select name="#">
-									<option value="#">United Kingdom (UK)</option>
-									<option value="#">United States (US)</option>
-									<option value="#">Australia (AUS)</option>
-								</select>
+								<label>Phone Number</label>
+								<input type="tel" id="phone_number" name="phone_number" placeholder="Ex: x,y,z">
 							</div>
 						</div>
 						<div class="col-md-12">
 							<div class="or-bill-form">
-								<input type="text" placeholder="House number and street name">
-							</div>
-						</div>
-						<div class="col-md-12">
-							<div class="or-bill-form">
-								<input type="text" placeholder="Apartment,suite,unit,etc (optional)">
-							</div>
-						</div>
-						<div class="col-md-12">
-							<div class="or-bill-form">
-								<label>Town / City *</label>
-								<input type="text" placeholder="Ex: x,y,z">
-							</div>
-						</div>
-						<div class="col-md-12">
-							<div class="or-bill-form">
-								<label>Country (optional)</label>
-								<input type="text" placeholder="Ex: x,y,z">
-							</div>
-						</div>
-						<div class="col-md-12">
-							<div class="or-bill-form">
-								<label>Postcode *</label>
-								<input type="text" placeholder="Ex: x,y,z">
+								<label>Address </label>
+								<input type="text" id="address" name="address" placeholder="Ex: x,y,z">
 							</div>
 						</div>
 					</div>
@@ -113,6 +88,8 @@
 	<script src="assets/js/parallax-scroll.js"></script>
 	<script src="assets/js/rbtools.min.js"></script>
 	<script src="assets/js/rs6.min.js"></script>
+	<script src="assets/js/plugins/jquery.validate.min.js"></script>
 	<script src="assets/js/script.js"></script>	
+	<script src="assets/js/main.js"></script>	
 </body>
 </html>		
