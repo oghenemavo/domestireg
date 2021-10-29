@@ -4,7 +4,7 @@
 		border-radius: 100px;
 		background-color: #76a713;
 		margin: -20px 0px 38px 0px;
-		box-shadow: 0 8px 46px rgb(0 0 0 / 13%);
+		box-shadow: 0 8px 46px rgba(0, 0, 0,13%);
 		.or-footer-newslatter-img {
 			bottom: 0;
 			left: 4px;
@@ -60,6 +60,8 @@
 }
 .or-footer-widget-wrapper-1 {
 	padding-top: 25px;
+	padding-bottom: 25px;
+	background-color: $color-2;
 }
 .or-footer-widget {
 	.widget-title {
@@ -178,11 +180,13 @@
 	}
 }
 .or-footer-copyright {
-	padding: 100px 0px 12px 0px;
+	background-color: $base-color-2;
+	padding: 10px;
 	background-position: top center;
 	transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
 	span {
 		color: #fff;
+		font-size: 16px;
 	}
 }
 .or-footer-section-2 {

@@ -26,8 +26,8 @@ var browserSync  = require( 'browser-sync' ).create();
 
 const paths = {
 	styles: {
-		src: './src/scss/style.scss',
-		dist: './app/css/'
+		src: './app/assets/scss/style.scss',
+		dist: './app/assets/css/'
 	},
 	scripts: {
 		src: './src/js/',
@@ -47,19 +47,19 @@ const paths = {
 		dist: './app/fonts/'
 	},
 	html: {
-		src: './src/**/*.html',
+		src: './app/**/*.html',
 		dist: './app/'
 	},
 	map: './',
 };
 
 const watches = {
-	styles: './src/scss/**/*.scss',
-	scripts: './src/js/**/*.js',
-	images: './src/images/**/*.*',
-	svg: './src/svg/**/*.svg',
-	fonts: './src/fonts/**/*.*',
-	html: './src/**/*.html',
+	styles: './app/assets/scss/**/*.scss',
+	// scripts: './src/js/**/*.js',
+	// images: './src/images/**/*.*',
+	// svg: './src/svg/**/*.svg',
+	// fonts: './src/fonts/**/*.*',
+	html: './app/**/*.html',
 };
 
 // Tasks
@@ -157,20 +157,20 @@ async function html() {
 };
 
 async function watch_files() {
-	// watch(watches.styles, series(css, reload));
-	watch(watches.scripts, series(js, reload));
+	watch(watches.styles, series(css, reload));
+	// watch(watches.scripts, series(js, reload));
 	// watch(watches.images, series(images, reload));
 	// watch(watches.svg, series(svg, reload));
 	// watch(watches.fonts, series(fonts, reload));
 	watch(watches.html, series(html, reload));
-	src(paths.scripts.dist + 'main.min.js')
-		.pipe( notify({ message: 'Gulp is Watching, Happy Coding!' }) );
+	// src(paths.scripts.dist + 'main.min.js')
+	// 	.pipe( notify({ message: 'Gulp is Watching, Happy Coding!' }) );
 }
 
 task("css", css);
-task("js", js);
-task("images", images);
-task("fonts", fonts);
+// task("js", js);
+// task("images", images);
+// task("fonts", fonts);
 task("html", html);
-task("default", parallel(js, html));
+task("default", parallel(css, html));
 task("watch", parallel(browser_sync, watch_files));

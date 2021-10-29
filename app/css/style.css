@@ -7601,7 +7601,7 @@ select:visited {
 .or-footer-newslatter-1 .or-footer-newslatter-content {
   padding: 35px 0px;
   border-radius: 100px;
-  background-color: #76a713;
+  background-color: red;
   margin: -20px 0px 38px 0px;
   -webkit-box-shadow: 0 8px 46px black;
           box-shadow: 0 8px 46px black;
@@ -7689,8 +7689,6 @@ select:visited {
 
 .or-footer-widget-wrapper-1 {
   padding-top: 25px;
-  padding-bottom: 25px;
-  background-color: #ff7800;
 }
 
 .or-footer-widget .widget-title {
@@ -7829,8 +7827,7 @@ select:visited {
 }
 
 .or-footer-copyright {
-  background-color: #01b1ed;
-  padding: 10px;
+  padding: 100px 0px 12px 0px;
   background-position: top center;
   -webkit-transition: background 0.3s, border 0.3s, border-radius 0.3s, -webkit-box-shadow 0.3s;
   transition: background 0.3s, border 0.3s, border-radius 0.3s, -webkit-box-shadow 0.3s;
@@ -7840,7 +7837,6 @@ select:visited {
 
 .or-footer-copyright span {
   color: #fff;
-  font-size: 16px;
 }
 
 .or-footer-section-2 .or-footer-widget .or-logo-widget {

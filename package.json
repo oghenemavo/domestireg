@@ -10,7 +10,6 @@
   "license": "GPL-3.0",
   "devDependencies": {
     "@babel/core": "^7.10.3",
-    "@babel/plugin-transform-runtime": "^7.15.8",
     "@babel/preset-env": "^7.10.3",
     "babelify": "^10.0.0",
     "browser-sync": "^2.26.7",
@@ -29,10 +28,9 @@
     "vinyl-buffer": "^1.0.1",
     "vinyl-source-stream": "^2.0.0"
   },
-  "dependencies": {
-    "@babel/runtime-corejs3": "^7.15.4",
-    "chokidar": "^3.5.2",
-    "jquery-validation": "^1.19.3",
-    "zl-fetch": "^3.2.4"
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
   }
 }

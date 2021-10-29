@@ -21,12 +21,12 @@ $color-2: #ff7800;
 %innerbox {
     background-color: #fff;
     position: relative;
-    -webkit-box-shadow: 0 8px 38px rgb(12 12 12 / 6%);
+    -webkit-box-shadow: 0 8px 38px rgba(12, 12, 12, 6%);
     -khtml-box-shadow: 0 8px 38px rgba(12,12,12,6%);
     -moz-box-shadow: 0 8px 38px rgba(12,12,12,6%);
     -ms-box-shadow: 0 8px 38px rgba(12,12,12,6%);
     -o-box-shadow: 0 8px 38px rgba(12,12,12,6%);
-    box-shadow: 0 8px 38px rgb(12 12 12 / 6%);
+    box-shadow: 0 8px 38px rgba(12, 12, 12, 6%);
     padding: 55px 30px 45px;
     text-align: center;
     margin-bottom: 30px;

@@ -173,7 +173,7 @@
 .or-blog-innerbox-3 {
 	overflow: hidden;
 	border-radius: 10px;
-	box-shadow: 0 20px 30px rgb(50 50 50 / 10%);
+	box-shadow: 0 20px 30px rgba(50, 50, 50, 10%);
 	.or-blog-meta {
 		padding: 15px 20px;
 		border-bottom: 1px solid #ececf0;
@@ -679,7 +679,7 @@
 			height: 50px;
 			border:  none;
 			position: absolute;
-			border-left: 2px solid #ececf0;: 
+			border-left: 2px solid #ececf0;
 			background-color: transparent;
 		}
 	}
