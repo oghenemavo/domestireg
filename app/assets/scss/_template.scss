@@ -1,12 +1,21 @@
 /*=========
 Font load
 ===========*/
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Barlow:wght@400;500;600;700;900&family=Lora:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,700&family=Raleway:wght@400;700&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Barlow:wght@400;500;600;700;900&family=Lora:wght@400;500;600;700&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,700&display=swap');
 $body-font: 'Barlow', sans-serif;
 $heading: 'Lora', serif;
 $heading-2: 'Poppins', sans-serif;
 $style:  'Architects Daughter', cursive;
+
+body {
+    font-family: 'Merriweather', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', serif !important;
+}
 
 
 /*=========

@@ -42,8 +42,15 @@ CSS Table of content:-
 /*=========
 Font load
 ===========*/
-@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Barlow:wght@400;500;600;700;900&family=Lora:wght@400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,700&family=Raleway:wght@400;700&display=swap");
+body {
+  font-family: "Merriweather", sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", serif !important;
+}
+
 /*=========
 Color Code
 ===========*/
@@ -6691,7 +6698,7 @@ select:visited {
   content: "";
   height: 2px;
   position: absolute;
-  background-color: #b2d659;
+  background-color: #01b1ed;
 }
 .or-footer-widget .or-logo-widget {
   color: #fff;
@@ -7612,7 +7619,6 @@ select:visited {
 
   .or-footer-section-1 {
     padding-top: 80px;
-    background-color: #0b2900;
     background-image: none !important;
   }
 
